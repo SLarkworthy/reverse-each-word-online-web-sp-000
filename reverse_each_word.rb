@@ -12,5 +12,5 @@
 def reverse_each_word(string)
   split_string = string.split(" ")
   gnirts_array = split_string.collect {|word| word.reverse}
-  gnirts = gnirts_array_join(" ")
+  gnirts = gnirts_array.join(" ")
 end
